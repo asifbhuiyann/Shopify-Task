@@ -369,6 +369,7 @@ h1 {
 .features {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .feature h3 {
@@ -380,7 +381,11 @@ h1 {
 .feature {
     display: flex;
     align-items: flex-start;
+    gap: 10px;
     margin-bottom: 20px;
+}
+.icon img{
+    margin-top: 15px;
 }
 
 .features .feature .icon img {
@@ -1006,12 +1011,14 @@ blockquote {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .footer-column {
     flex: 1;
-    min-width: 250px;
-    margin-bottom: 20px;
+    min-width: 180px;
+    margin-bottom: 10px;
+    margin-left: 80px;
 }
 
 .footer-column h2 {
