@@ -24,8 +24,9 @@ This project is a **Shopify-based video content platform** that allows businesse
 ## 📖 How to Use
 1. **Clone the Repository**:
 
-   git clone https://github.com/asifbhuiyann/Shopify-Task.git
-   cd shopify-task
+   1. git clone https://github.com/asifbhuiyann/Shopify-Task.git
+
+   2. cd shopify-task
 
 ## Chrome Dev Tool Lighthouse Performance
 ![Lighthouse Performance](./images/image.png)
