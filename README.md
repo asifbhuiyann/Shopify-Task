@@ -1,6 +1,7 @@
 # Shopify Task - Video Content Platform 🎬
 
 ## 📖 Deployment Link
+https://shopify-task-eta.vercel.app/
 
 ## 📌 Project Overview
 This project is a **Shopify-based video content platform** that allows businesses and personal brands to **create, manage, and showcase short-form videos** at an affordable price. It features **a responsive design**, an interactive **carousel**, and an **FAQ section** to enhance user engagement.
