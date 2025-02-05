@@ -1,14 +1,14 @@
 body {
     font-family: sans-serif;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1640px;
     min-height: 100px;
     background-color: #f5f5f5;
 }
 
 .navbar {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1484px;
     height: 68px;
     padding: 16px 16px;
     gap: 10px;
@@ -257,7 +257,7 @@ h1 {
 .clients-info {
     width: 260px;
     height: 78px;
-    margin-left: 150px;
+    margin-left: 170px;
 }
 
 .clients-info h2 {
@@ -747,6 +747,7 @@ h1 {
     width: 480px;
     height: 501px;
     border-radius: 16px;
+    margin-left: 130px;
 }
 
 .text-container {
@@ -808,6 +809,7 @@ h1 {
     width: 1201px;
     height: 1131px;
     text-align: center;
+    margin-left: 120px;
 }
 
 .testimonials-section h1 {
@@ -949,6 +951,7 @@ blockquote {
     max-width: 1192px;
     height: 686px;
     top: 6286px;
+    margin-left: 100px;
     background-color: white;
     padding: 80px 120px 80px 120px;
     border-radius: 10px;
@@ -1039,6 +1042,7 @@ blockquote {
     width: 100%;
     max-width: 1200px;
     height: 424px;
+    margin-left: 80px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
