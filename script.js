@@ -32,3 +32,28 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const carousels = document.querySelectorAll(".carousel");
+
+    carousels.forEach((carousel) => {
+        const items = carousel.querySelectorAll(".video-card");
+        const forwardIcon = document.createElement("div");
+        forwardIcon.classList.add("carousel-forward");
+        forwardIcon.innerHTML = ">";
+        carousel.appendChild(forwardIcon);
+
+        forwardIcon.addEventListener("click", function () {
+            for (let i = 0; i < 4; i++) {
+                let firstItem = carousel.firstElementChild;
+                carousel.appendChild(firstItem);
+            }
+            carousel.style.transition = "transform 0.8s ease-in-out";
+            carousel.style.transform = "translateX(-120%)";
+            setTimeout(() => {
+                carousel.style.transition = "none";
+                carousel.style.transform = "translateX(0)";
+            }, 500);
+        });
+    });
+}); 
