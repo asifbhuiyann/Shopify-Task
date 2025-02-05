@@ -1,4 +1,3 @@
-// Dropdown Menu Functionality (Optional)
 document.addEventListener("DOMContentLoaded", function () {
     let dropdown = document.querySelector(".dropdown");
 

@@ -1,14 +1,14 @@
 body {
     font-family: sans-serif;
-    width: 100%; max-width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     min-height: 100px;
     background-color: #f5f5f5;
 }
 
-
-/* Navbar Styling */
 .navbar {
-    width: 100%; max-width: 14040px;
+    width: 100%;
+    max-width: 1440px;
     height: 68px;
     padding: 16px 16px;
     gap: 10px;
@@ -20,14 +20,12 @@ body {
     font-family: sans-serif;
 }
 
-/* Logo */
 .logo img {
     margin-left: 200px;
     height: 68px;
     width: 89.55px;
 }
 
-/* Nav Links */
 .nav-links {
     list-style: none;
     display: flex;
@@ -49,7 +47,6 @@ body {
     color: gray;
 }
 
-/* Dropdown Menu */
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -73,7 +70,6 @@ body {
     font-size: 16px;
 }
 
-/* Buttons */
 .buttons {
     display: flex;
     gap: 10px;
@@ -104,7 +100,8 @@ body {
 }
 
 .video-section {
-    width: 100%; max-width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -113,7 +110,6 @@ body {
     background-color: white;
 }
 
-/* Left Content */
 .content {
     float: left;
     max-width: 500px;
@@ -147,7 +143,6 @@ h1 {
     font-weight: bold;
 }
 
-/* Buttons */
 .buttons {
     margin-top: 20px;
 }
@@ -176,7 +171,6 @@ h1 {
     color: purple;
 }
 
-/* Right Video Section */
 .video-thumbnails {
     display: flex;
     gap: 20px;
@@ -210,7 +204,6 @@ h1 {
     cursor: pointer;
 }
 
-/* Social Media Section */
 .social-channels p {
     font-size: 20px;
     line-height: 30px;
@@ -224,7 +217,8 @@ h1 {
 }
 
 .social-channels {
-    width: 100%; max-width: 496px;
+    width: 100%;
+    max-width: 496px;
     height: 130px;
     top: 604px;
     background-color: white;
@@ -247,7 +241,8 @@ h1 {
 }
 
 .clients-section {
-    width: 100%; max-width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     height: 226px;
     top: 794px;
     left: -1px;
@@ -316,7 +311,8 @@ h1 {
 }
 
 .header {
-    width: 100%; max-width: 742px;
+    width: 100%;
+    max-width: 742px;
     height: 128px;
     margin: auto;
 }
@@ -387,7 +383,8 @@ h1 {
     gap: 10px;
     margin-bottom: 20px;
 }
-.icon img{
+
+.icon img {
     margin-top: 15px;
 }
 
@@ -552,7 +549,6 @@ h1 {
     text-align: left;
 }
 
-
 .card img {
     width: 100%;
     border-radius: 8px;
@@ -618,7 +614,8 @@ h1 {
 }
 
 .video-container {
-    width: 100%; max-width: 1221px;
+    width: 100%;
+    max-width: 1221px;
     height: 491px;
     margin: 0 auto;
     padding: 20px;
@@ -727,7 +724,8 @@ h1 {
 }
 
 .video-section {
-    width: 100%; max-width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     min-height: 581px;
     padding: 40px 120px 40px 120px;
     display: flex;
@@ -876,14 +874,12 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* space between rows */
 }
 
 .firstRow,
 .secondRow {
     display: flex;
     gap: 20px;
-    /* space between cards */
 }
 
 .firstRow .testimonial-card {
@@ -949,7 +945,8 @@ blockquote {
 }
 
 .faq-container {
-    width: 100%; max-width: 1192px;
+    width: 100%;
+    max-width: 1192px;
     height: 686px;
     top: 6286px;
     background-color: white;
@@ -1027,7 +1024,8 @@ blockquote {
 }
 
 .footer {
-    width: 100%; max-width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     height: 586px;
     background: #fff;
     padding: 40px 80px;
@@ -1038,7 +1036,8 @@ blockquote {
 }
 
 .footer-content {
-    width: 100%; max-width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     height: 424px;
     display: flex;
     justify-content: space-between;
@@ -1127,7 +1126,6 @@ blockquote {
     width: 100%;
 }
 
-/* Medium Screens (Tablets) */
 @media screen and (max-width: 1024px) {
     .navbar {
         flex-direction: column;
@@ -1171,7 +1169,6 @@ blockquote {
     }
 }
 
-/* Small Screens (Mobile) */
 @media screen and (max-width: 768px) {
     .navbar {
         flex-direction: column;
