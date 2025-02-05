@@ -9,6 +9,14 @@ document.addEventListener("DOMContentLoaded", function () {
         dropdown.querySelector(".dropdown-menu").style.display = "none";
     });
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuToggle.addEventListener("click", function () {
+        navLinks.classList.toggle("active");
+    });
+});
 
 document.addEventListener("DOMContentLoaded", function () {
     const faqItems = document.querySelectorAll(".faq-item");
