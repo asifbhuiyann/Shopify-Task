@@ -90,6 +90,11 @@
         cursor: pointer;
     }
 
+    .plans {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .service-content {
         flex-direction: column;
         text-align: center;
@@ -304,7 +309,13 @@
     }
 
     .plans {
-        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .plans .plan-card {
+        width: 90%;
+        max-width: 350px;
     }
 
     .grid-container {
@@ -418,7 +429,7 @@
     }
 
     .footer-column {
-        width: 100%;
+        width: 60%;
         margin-bottom: 15px;
     }
 
